@@ -1,1 +1,2 @@
-# UBC_MDS_interview_lesson
+# UBC MDS teaching demo
+ 
