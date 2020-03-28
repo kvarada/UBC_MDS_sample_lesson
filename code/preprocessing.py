@@ -23,7 +23,7 @@ class MyPreprocessor:
         Given a text, this function returns a preprocessed 
         text which is tokenized and free from stopwords. 
 
-        Keyword arguments:
+        Arguments:
         text -- (str) text to be preprocessed
 
         Returns: 
@@ -45,7 +45,7 @@ class MyPreprocessor:
         this function carries out sentence tokenization and other preprocessing
         and returns a preprocessed corpus. 
 
-        Keyword arguments:
+        Arguments:
         doc_list -- (list) a list of strings, each string representing a document. 
 
         Returns:
