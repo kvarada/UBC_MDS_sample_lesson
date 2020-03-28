@@ -23,11 +23,15 @@ class MyPreprocessor:
         Given a text, this function returns a preprocessed 
         text which is tokenized and free from stopwords. 
 
-        Arguments:
-        text -- (str) text to be preprocessed
+        Parameters
+        -----------
+        text : (str) 
+            text to be preprocessed
 
-        Returns: 
-        preprocessed -- (list) a list containing tokens in the preprocessed text
+        Returns
+        -----------
+        preprocessed : (list) 
+            a list containing tokens in the preprocessed text
 
         """
         text = text.replace(r'<br />',' ')
@@ -45,10 +49,12 @@ class MyPreprocessor:
         this function carries out sentence tokenization and other preprocessing
         and returns a preprocessed corpus. 
 
-        Arguments:
+        Parameters
+        ---------------
         doc_list -- (list) a list of strings, each string representing a document. 
 
-        Returns:
+        Returns
+        -----------
         preprocessed_corpus -- (list) a list of lists of preprocessed (tokenized and stopword-removed)
         sentences in the documents with the following format. 
         [[sent1_word1, sent1_word2, sent1_word3, ...], [sent2_word1, sent2_word2, sent2_word3, ...], ...]
